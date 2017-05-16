@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{42CFDD19-3C65-488C-9557-48B1E5295A7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Etructuras_control_flujo.Module1</StartupObject>
+    <StartupObject>Etructuras_control_flujo.TP2_15_Capital</StartupObject>
     <RootNamespace>Etructuras_control_flujo</RootNamespace>
     <AssemblyName>Etructuras_control_flujo</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,7 +68,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="TP2_15_Capital.vb" />
+    <Compile Include="TP2_14_Venta.vb" />
+    <Compile Include="TP2_13_Numeros_Primos.vb" />
+    <Compile Include="TP2_12_Fibonacci.vb" />
+    <Compile Include="TP2_11_Par.vb" />
+    <Compile Include="TP2_10_For_y_Do_Loop.vb" />
+    <Compile Include="TP2_02_IF_Menor.vb" />
+    <Compile Include="TP2_03_IF_PIngreso.vb" />
+    <Compile Include="TP2_04_IF_Pruducto.vb" />
+    <Compile Include="TP2_01_IF_Relacion.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -84,6 +93,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TP2_05_CASE_Mes.vb" />
+    <Compile Include="TP2_06_CASE_Del_TP04.vb" />
+    <Compile Include="TP2_07_CASE_Angulo.vb" />
+    <Compile Include="TP2_08_Dias_Del_Mes.vb" />
+    <Compile Include="TP2_09_Coversion.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
